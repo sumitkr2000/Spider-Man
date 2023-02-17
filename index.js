@@ -1,3 +1,6 @@
-function getImage() {
-  document.querySelector("img").classList.toggle("show");
+function call() {
+  document.querySelector("img").classList.add("show");
+}
+function send() {
+  document.querySelector("img").classList.remove("show");
 }
